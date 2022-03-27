@@ -7,10 +7,9 @@
 
 
 const reverseString = function(string) {
-    //const stringArray = string.split('');
     const reverseStringArray = [];
     for (let i = string.length - 1; i >= 0; i--) {
-        reverseStringArray.push(string[i]);
+    reverseStringArray.push(string[i]);
     }
     return reverseStringArray.join('');
 
